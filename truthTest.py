@@ -9,7 +9,4 @@ z = int(input('Введитe значение z:'))
 left = not (x or y or z)
 right = not x and not y and not z
 
-if left == right:
-    print(True)
-else:
-    print(False)
+print(left == right)

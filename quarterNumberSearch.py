@@ -19,7 +19,7 @@ elif x != 0 and y == 0:
 
 elif x > 0 and y > 0:
     print('Point in first quarter')
-elif x > 0 and y < 0:
+elif x < 0 and y > 0:
     print('Point in second quarter')
 elif x < 0 and y < 0:
     print('Point in third quarter')

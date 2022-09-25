@@ -7,8 +7,8 @@ numberQuarter = int(input('Insert number quarter: '))
 if numberQuarter == 1:
     print('range coordintes where: x > 0 and y > 0')
 elif numberQuarter == 2:
-    print('range coordinates where: x > 0 and y < 0')
+    print('range coordinates where: x < 0 and y > 0')
 elif numberQuarter == 3:
     print('range coordinates where: x < 0 and y < 0')
 elif numberQuarter == 4:
-    print('range coordintes where: x < 0 and y > 0')
+    print('range coordintes where: x > 0 and y < 0')
